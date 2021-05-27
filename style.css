@@ -840,6 +840,12 @@ a {
 }
 
 @media screen and (max-width: 488px) {
+  .btn-lcontainer {
+    position: relative;
+    width: 155px;
+    height: 50px;
+    margin: 30px;
+  }
   .popup {
     max-width: auto;
   }
