@@ -258,7 +258,10 @@ header .fixed {
   }
 }
 /* end of navbar */
-/* hero */
+/* 
+
+
+*/
 .hero {
   min-height: calc(100vh);
   background: var(--mainwhite);
@@ -457,7 +460,7 @@ header .fixed {
   }
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.5)),
-      url("./images/hero1.jpg") center/cover no-repeat;
+      url("https://drive.google.com/uc?/export=view&id=1PcZnVd1xTeRdoce3te2FNaVz6wHSD5JO") center/cover no-repeat;
   }
   .hero-banner {
     color: var(--mainwhite);
