@@ -67,10 +67,10 @@ scrolllinks.forEach(function (link) {
   });
 });
 // preload
-// const preloader = document.querySelector(".preloader");
-// window.addEventListener("load", function () {
-//   preloader.classList.add("hide-preloader");
-// });
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
 // end of smooth scroll new
 // // // ********** nav toggle ************
 // // // select button and links
