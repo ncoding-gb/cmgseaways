@@ -967,3 +967,6 @@ body section .close-popup {
   background: linear-gradient(transparent, var(--mainclr));
   border-radius: 10px;
 }
+.contact-info h5 {
+  text-transform: uppercase;
+}
