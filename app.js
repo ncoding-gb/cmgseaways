@@ -143,7 +143,7 @@ const openpopup = document.getElementById("open-popup");
 //   document.body.style.overflow = "auto"; // ADD THIS LINE
 //   document.body.style.height = "auto"; // ADD THIS LINE
 // };
-When the user clicks the button, open the modal
+// When the user clicks the button, open the modal
 openpopup.onclick = function () {
   popup.style.display = "block";
   document.body.style.overflow = "hidden"; // ADD THIS LINE
