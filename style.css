@@ -970,3 +970,29 @@ body section .close-popup {
 .contact-info h5 {
   text-transform: uppercase;
 }
+/*  sanam davamateb team memberebs manam*/
+.popup-loading {
+  height: 100vh;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  overflow-x: hidden;
+}
+.special-h3 {
+  color: var(--mainwhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin-right: 10px;
+}
+.special-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
