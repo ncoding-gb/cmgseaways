@@ -1,3 +1,5 @@
+// scroll top 
+document.body.scrollTop = document.documentElement.scrollTop = 0;
 // // ********** set date ************
 // // select span
 const date = (document.getElementById("date").innerHTML =
