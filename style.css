@@ -461,6 +461,12 @@ header .fixed {
   }
 }
 @media screen and (max-width: 991px) {
+   .about-info {
+    max-width: 550px;
+  }
+  .about-info h3 {
+    text-align: center;
+  }
   .section {
     padding: 1.5rem 0;
   }
