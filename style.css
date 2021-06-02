@@ -594,8 +594,8 @@ header .fixed {
     flex-wrap: wrap;
   }
   .preloader{
-  width:100px;
-  height:100px;}
+  width:500px;
+  height:500px;}
   .contact-map,
   .contact-info {
     flex: 0 0 calc(50% - 2rem);
