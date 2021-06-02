@@ -72,77 +72,11 @@ window.addEventListener("load", function () {
   preloader.classList.add("hide-preloader");
 });
 // end of smooth scroll new
-// // // ********** nav toggle ************
-// // // select button and links
-// const navBtn = document.getElementById("nav-toggle");
-// const links = document.getElementById("nav-links");
-// // add event listener
-// navBtn.addEventListener("click", () => {
-//   links.classList.toggle("show-links");
-// });
-// // // ********** navbar fixed ************
-// const navbar = document.querySelector(".navbar");
 
-// window.addEventListener("scroll", () => {
-//   if (window.pageYOffset > 62) {
-//     navbar.classList.add("fixed");
-//   } else {
-//     navbar.classList.remove("fixed");
-//   }
-// });
-// // smooth scroll
-// const scrollLinks = document.querySelectorAll(".scroll-link");
-
-// scrollLinks.forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     links.classList.remove("show-links");
-//     const id = e.target.getAttribute("href").slice(1);
-//     const element = document.getElementById(id);
-//     // position
-//     let position;
-//     if (navbar.classList.contains("fixed")) {
-//       position: element.offsetTop - 87.25;
-//     } else {
-//       position = element.offsetTop - 174.5;
-//     }
-//     if (window.innerWidth < 992) {
-//       if (navbar.classList.contains("fixed")) {
-//         position = element.offsetTop - 87.25;
-//       } else {
-//         position = element.offsetTop - 350 - 87.25;
-//       }
-//     }
-//     // // window scrollto
-//     window.scrollTo({
-//       left: 0,
-//       top: element.offsetTop,
-//       behavior: "smooth",
-//     });
-//   });
-// });
-
-// document.getElementById("open-popup").addEventListener("click", function () {
-//   document.querySelector(".popup").style.display = "flex";
-// });
-// document.querySelector(".close-popup").addEventListener("click", function () {
-//   document.querySelector(".popup").style.display = "none";
-// });
 const popup = document.getElementById("popup");
 const closepopup = document.querySelector(".close-popup");
 const openpopup = document.getElementById("open-popup");
-// btn.onclick = function () {
-//   popup.style.display = "block";
-//   document.body.style.overflow = "hidden"; // ADD THIS LINE
-//   document.body.style.height = "100%"; // ADD THIS LINE
-// };
 
-// // When the user clicks on <span> (x), close the modal
-// closepopup.onclick = function () {
-//   popup.style.display = "none";
-//   document.body.style.overflow = "auto"; // ADD THIS LINE
-//   document.body.style.height = "auto"; // ADD THIS LINE
-// };
 // When the user clicks the button, open the modal
 openpopup.onclick = function () {
   popup.style.display = "block";
