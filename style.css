@@ -299,7 +299,11 @@ header .fixed {
   transition: 0.5s;
   backdrop-filter: blur(15px);
 }
-
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.5)),
+      url("https://drive.google.com/uc?/export=view&id=1osaunFYU1MgTk5DydsVZU-iWwmTBBR19")
+        center/cover no-repeat;
+  }
 @media screen and (min-width: 768px) {
   .btn-lcontainer:hover a {
     letter-spacing: 0.3rem;
@@ -387,11 +391,11 @@ header .fixed {
     /* color: var(--mainclr); */
     /* transition-delay: 0.25s; */
   }
-  .hero {
+/*   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.5)),
       url("https://drive.google.com/uc?/export=view&id=1dZGkd7FA34hEBk10urbSicnbIsSm5tFS")
         center/cover no-repeat;
-  }
+  } */
   .hero-banner {
     color: var(--mainwhite);
     padding: 0;
@@ -408,13 +412,13 @@ header .fixed {
   .service-img {
     display: none;
   }
-  .hero {
+/*   .hero {
     width: auto;
     height: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.5)),
       url("https://drive.google.com/uc?/export=view&id=1dZGkd7FA34hEBk10urbSicnbIsSm5tFS")
         center/cover no-repeat;
-  }
+  } */
 }
 /* end of hero */
 /*  */
@@ -579,11 +583,7 @@ header .fixed {
     height: 400px;
     padding-left: 2rem;
   }
-  /* .map {
-    max-width: 422px;
-    height: 390px;
-    background: red;
-  } */
+  
 }
 @media screen and (min-width: 992px) {
   .contact-center {
@@ -829,19 +829,7 @@ a {
 img .profile-img {
   width: 250px;
 }
-.container .card .content {
-  /* position: relative; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-  /* opacity: 0.75;
-  transition: 0.5s; */
-}
-/* .container .card:hover .content {
-  opacity: 1;
-  transform: translateY(-20px);
-} */
+
 .container .card .content .imgbox {
   /* position: relative; */
   width: 225px;
@@ -889,24 +877,13 @@ img .profile-img {
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
 }
-/* .container .card:hover .sci li {
-  transform: translateY(20px);
-  opacity: 1;
-} */
+
 .container .card .sci li a {
   color: #fff;
   font-size: 24px;
 }
 
-body .our-team {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background: rgba(255, 255, 255, 0.486);
-  min-height: 100vh; */
-  /* visibility: hidden; */
-}
+
 
 .popup {
   display: none;
@@ -970,29 +947,5 @@ body section .close-popup {
 .contact-info h5 {
   text-transform: uppercase;
 }
-/*  sanam davamateb team memberebs manam*/
-.popup-loading {
-  height: 100vh;
-  max-width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
-  overflow-x: hidden;
-}
-.special-h3 {
-  color: var(--mainwhite);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 500px;
-  margin-right: 10px;
-}
-.special-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
