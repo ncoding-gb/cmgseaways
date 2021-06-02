@@ -593,7 +593,9 @@ header .fixed {
     align-items: center;
     flex-wrap: wrap;
   }
-
+  .preloader{
+  width:100px;
+  height:100px;}
   .contact-map,
   .contact-info {
     flex: 0 0 calc(50% - 2rem);
@@ -725,6 +727,7 @@ a {
   align-items: center;
   visibility: visible;
   z-index: 1111;
+  
   transition: var(--sectransition);
 }
 .hide-preloader {
