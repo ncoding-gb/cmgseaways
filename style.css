@@ -959,4 +959,10 @@ body section .close-popup {
   text-transform: uppercase;
 }
 
-
+.pos-1 {
+  
+  position: absolute;
+  top: 335px;
+  right: 125px;
+  font-weight: 500;
+}
