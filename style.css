@@ -960,9 +960,7 @@ body section .close-popup {
 }
 
 .contentbox h3.pos-1 {
-  position: absolute;
-  top: 335px;
-  right: 125px;
+
   font-weight: 300;
   
 }
