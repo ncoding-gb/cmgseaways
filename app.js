@@ -31,11 +31,11 @@ window.addEventListener("scroll", function () {
   } else {
     navbar.classList.remove("fixed");
   }
-  if (scrollheight > 500) {
-    toplink.classList.add("show-link");
-  } else {
-    toplink.classList.remove("show-link");
-  }
+//   if (scrollheight > 500) {
+//     toplink.classList.add("show-link");
+//   } else {
+//     toplink.classList.remove("show-link");
+//   }
 });
 let posit;
 // end of fixed navbar
