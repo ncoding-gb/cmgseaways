@@ -600,7 +600,7 @@ header .fixed {
     flex-wrap: wrap;
   }
   .preloader-size{
-  width:250px;
+  width:64px;
     height:auto;
  }
   .contact-map,
