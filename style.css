@@ -965,3 +965,8 @@ width: ww;
   background-color:white;
   
 }
+.overlay h1 {
+display: flex;
+  justify-content:center;
+  align-items:center;
+}
