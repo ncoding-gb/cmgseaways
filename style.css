@@ -959,3 +959,9 @@ body section .close-popup {
 }
 
 
+.overlay {
+width: wv;
+  height:wh;
+  background-color:white;
+  
+}
