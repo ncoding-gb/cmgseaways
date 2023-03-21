@@ -69,10 +69,10 @@ scrolllinks.forEach(function (link) {
   });
 });
 // preload
-const preloader = document.querySelector(".preloader");
-window.addEventListener("load", function () {
-  preloader.classList.add("hide-preloader");
-});
+// const preloader = document.querySelector(".preloader");
+// window.addEventListener("load", function () {
+//   preloader.classList.add("hide-preloader");
+// });
 // end of smooth scroll new
 
 const popup = document.getElementById("popup");
